@@ -30,8 +30,8 @@ steps = [
   function(){
         console.log('Step 2 - Populate and submit the login formx');
     page.evaluate(function(){
-        document.getElementById("ctl00_HeaderCtrl_txtLoginUsername").value = "thimbamedia";
-        document.getElementById("ctl00_HeaderCtrl_txtLoginPassword").value = "Luck0theiri$h";
+        document.getElementById("ctl00_HeaderCtrl_txtLoginUsername").value = "-";
+        document.getElementById("ctl00_HeaderCtrl_txtLoginPassword").value = "-";
         document.getElementById("ctl00_HeaderCtrl_ButtonSubmit").click();
      
     });
